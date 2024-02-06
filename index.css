@@ -1,0 +1,187 @@
+.container{
+    display: flex;
+    justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+.intro{
+  padding: 85px 50px;
+  
+}
+.intro h1,h4{
+  font-style: italic;
+}
+.photo{
+  padding: 85px 50px;
+
+}
+
+.photo img{
+    width: 26vw;
+  height: 45vh;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.btn{
+  margin: 6px;
+}
+.container1{
+  display: flex;
+  justify-content: center;
+height: 100vh;
+width: 100vw;
+background-color: #c5c5ed;
+
+}
+.container1 h1{
+text-align: center;
+}
+ul{
+  display: flex;
+  justify-content: right;
+  gap: 3.2rem;
+  text-decoration: none;
+}
+li{
+  text-decoration: none;
+}
+.maincontainer{
+  background-color:rgb(26, 25, 25);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+}
+.codingskills{
+  width: 45vw;
+  margin: 15vh 29px;
+  height: 71vh;
+  border: 2px solid #1ee3d0;
+  color: wheat;
+}
+.codingskills h1{
+  margin-top:5px;
+}
+.codingskills .progress{
+  margin-top:5px;
+}
+.professionalskills{
+  width: 45vw;
+  margin: 15vh 29px;
+  height: 71vh;
+  border: 2px solid #1ee3d0;
+  color: wheat;
+  
+}
+.heading h1{
+  text-align: center;
+  color:black;
+  /* background-color:rgb(83, 83, 83); */
+}
+.headline{
+  display: flex;
+}
+.skills{
+  text-align: center;
+  font-size:20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+nav {
+  background-color: #333;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  display: inline-block;
+  font-weight: bolder;
+}
+.contact{
+  height: 100vh;
+  width: 100vw;
+  background-color: #beeff1;
+}
+.cont h1{
+  text-align: center;
+  font-weight: bolder;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #11a7f3;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0f62df;
+}
+.logo{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+}
+.logo fa{
+  margin: 0 38px;
+}
+
+h2,h1 {
+  font-size: 5em;
+  font-family: serif;
+  color: transparent;
+  text-align: center;
+  animation: effect 2s linear infinite;
+}
+h3{
+  font-size: 3em;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: transparent;
+  text-align: center;
+  animation: effect 4s linear infinite;
+}
+@keyframes effect {
+  0% {
+      background: linear-gradient(
+          hsl(26, 92%, 46%), #037389);
+      -webkit-background-clip: text;
+  }
+
+  100% {
+      background: linear-gradient(
+          #56ae09, #057ed5);
+      -webkit-background-clip: text;
+  }
+}
+.about{
+  background-color: #e3e3ed;
+  width: 100vw;
+  height: 100vh;
+  /* display: flex; */
+  /* justify-content: center; */
+}
